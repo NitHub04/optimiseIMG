@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #25318d;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  color: #fff;
+  margin-right: 20px;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+.hero-section {
+  background-color: #25318d;
+  color: #fff;
+}
+
+.video-subscription-section,
+.courses-section {
+  background-color: #25318d;
+  color: #fff;
+}
+
+.payment-form-section {
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+button {
+  background-color: #f06c61;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+}
