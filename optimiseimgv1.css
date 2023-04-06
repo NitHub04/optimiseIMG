@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #F6F6F6;
     margin: 0;
 }
@@ -19,10 +19,7 @@ header {
 }
 
 .logo {
-    color: #25318d;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-right: 20px;
+    width: 150px;
 }
 
 .cta-button {
@@ -53,26 +50,28 @@ main {
     align-items: center;
 }
 
-section {
+/* Hero Section */
+.hero-section {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #25318D;
+    color: #FFFFFF;
     padding: 50px 0;
 }
 
-h1, h2 {
-    font-size: 2rem;
-    color: #FFFFFF;
+.hero-section .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-p {
-    font-size: 1.2rem;
-    color: #FFFFFF;
-    margin-bottom: 20px;
+.hero-section h1, .hero-section p {
+    margin-right: 20px;
 }
 
-button {
+.hero-section button {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #FFFFFF;
@@ -81,22 +80,74 @@ button {
     cursor: pointer;
 }
 
-/* Hero Section */
-.hero-section {
-    background-color: #25318D;
-}
-
-.logo img {
-    height: 60px;
-    vertical-align: middle;
-}
-
 /* Introduction Section */
 .introduction-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #740131;
+    color: #FFFFFF;
+    padding: 50px 0;
+}
+
+/* Video Subscription Section */
+.video-subscription-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #25318D;
+    padding: 50px 0;
+}
+
+.video-subscription-section button {
+    background-color: #740131;
+    color: white;
 }
 
 /* Courses Section */
 .courses-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #740131;
+    color: #FFFFFF;
+    padding: 50px 0;
 }
+
+.courses-section button {
+    background-color: #25318D;
+    color: white;
+}
+
+/* Payment Form Section */
+.payment-form-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #25318D;
+    padding: 50px 0;
+}
+
+.payment-form-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.payment-form-section input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #25318D;
+}
+
+.payment-form-section button {
+    padding: 10px 20px;
+    background-color: #253
